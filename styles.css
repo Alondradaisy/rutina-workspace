@@ -6,13 +6,17 @@ body {
 
 #welcome, h1 {
     font-family:'Courier New', Courier, monospace;
-    color: navy;
+    color: #0D3B66;
     font-size: 30px;
     font-weight: bold;
 }
 h3, h4, li{
     font-family: 'Courier New', Courier, monospace;
     color: navy;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 li, h4 {
     font-weight: bold;
@@ -33,6 +37,7 @@ li, h4 {
     size: 30%;
     margin: auto;
     position: relative;
+    height: auto;
 }
 
 #typewriter {
