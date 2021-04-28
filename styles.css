@@ -22,6 +22,15 @@ li, h4 {
     font-weight: bold;
 }
 
+.menu-items {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: 5%;
+    margin: 2%;
+    padding: 1px;
+}
+
 #templates {
     padding-top: 20px;
     color: white;
