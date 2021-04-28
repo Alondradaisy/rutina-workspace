@@ -8,21 +8,24 @@ body {
     font-family:'Courier New', Courier, monospace;
     color: navy;
     font-size: 30px;
+    font-weight: bold;
+}
+h3, h4, li{
+    font-family: 'Courier New', Courier, monospace;
+    color: navy;
+}
+li, h4 {
+    font-weight: bold;
 }
 
 #templates {
-    padding: 20px;
+    padding-top: 20px;
     color: white;
 }
 
 #create-my-own {
     padding-top: 20px;
     color: white;
-}
-
-#ivory-background {
-    padd
-    
 }
 
 
