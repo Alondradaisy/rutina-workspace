@@ -14,23 +14,35 @@
 </head>
 <body>
     <div class="container-fluid">
-
-    <h1>CREATE YOUR OWN</h1>
-    <h1>Note taking space</h1>
-    <h3>No specific steps here</h3>
-    
-    <div class="menu-items">
-        <div id="about">
-            <button type="button" class="btn btn-light"> <a href="about.html" target="_blank"> ABOUT</a></button>
-        </div>    
-        <div id="inspo">
-            <button type="button" class="btn btn-light"> <a href="inspo.html" target="_blank">INSPO</a></button>
+        
+        <h1>CREATE YOUR OWN</h1>
+        <h1>Note taking space</h1>
+        <h3>No specific steps here</h3>
+        
+        <div class="quick-notes">
+            <h1>Quick Notes:</h1>
+            <section>
+                <label for="note-input"> Add notes here!</label>
+                <input class="note btn btn-outline-light" type="text" name="note-input">
+                <button class="add-note btn btn-outline-success">ADD</button>
+                <button class="clear btn btn-outline-warning">Clear Notes</button>
+            </section>
+            <ol class="note-list"></ol>
         </div>
         
-        <div class="connect">
-            <button type="button" class="btn btn-light"><a href="https://www.createrutina.com/" target="_blank">Create Squared</a></button>
+        <div class="menu-items">
+            <div id="about">
+                <button type="button" class="btn btn-light"> <a href="about.html" target="_blank"> ABOUT</a></button>
+            </div>    
+            <div id="inspo">
+                <button type="button" class="btn btn-light"> <a href="inspo.html" target="_blank">INSPO</a></button>
+            </div>
+            
+            <div class="connect">
+                <button type="button" class="btn btn-light"><a href="https://www.createrutina.com/" target="_blank">Create Squared</a></button>
+            </div>
         </div>
     </div>
-    </div>
+    <script src="./notes.js"></script>
 </body>
 </html>
