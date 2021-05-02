@@ -9,5 +9,17 @@ button.addEventListener('click', function () {
     note.innerText = userInput;
 
     noteList.appendChild(note);
+})
+
+function clear() {
+
+clearButton.noteList = document.querySelector('ol');
+clearButton.innerHTML = '';
 }
-)
+
+const clearButton = document.querySelector('.clear');
+clearButton.addEventListener('click', function(){
+    console.log('clear');
+
+    noteList.splice(0, noteList.length);
+});

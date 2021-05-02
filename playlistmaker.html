@@ -15,7 +15,7 @@
 <body>
     <div class="container-fluid">
         <h1>MUSIC PLAYLIST TEMPLATE</h1>
-        <h1>Add a list of songs to the page! </h1>
+        <h1>Add songs to create a playlist:</h1>
         
         <h3>Steps:</h3>
         <ol>
@@ -23,7 +23,17 @@
             <li>Click add to add</li>
             <li>Add unlimited amount</li>
         </ol>
-        <h1>Know the name of the song, but not the artist (vice-versa), not problem. Save the list and add come back to it when you do.</h1>
+    
+        <div class="playlist-maker">
+            
+            <section>
+                <label for="playlist-input"> Add song here!</label>
+                <input class="playlist btn btn-outline-primary" type="text" name="note-input">
+                <button class="add-song btn btn-outline-success">ADD</button>
+                <button class="clear btn btn-outline-warning">Clear Songs</button>
+            </section>
+            <ol class="song-list"></ol>
+        </div>
         
         <div class="menu-items">
             <div id="about">
