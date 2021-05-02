@@ -11,15 +11,7 @@ button.addEventListener('click', function () {
     noteList.appendChild(note);
 })
 
-function clear() {
-
-clearButton.noteList = document.querySelector('ol');
-clearButton.innerHTML = '';
+function clear(noteList){
+    const clearList = document.getElementsByClassName('.note-list');
+    clearList.parentNode.removeChild(clearList);
 }
-
-const clearButton = document.querySelector('.clear');
-clearButton.addEventListener('click', function(){
-    console.log('clear');
-
-    noteList.splice(0, noteList.length);
-});
