@@ -10,3 +10,10 @@ songButton.addEventListener('click', function() {
 
     songList.appendChild(song);
 });
+
+const clearButton = document.getElementById('clear-songs');
+clearButton.addEventListener('click', function(event) {
+    event.target.style = 'none';
+    songList.innerText = ''; 
+    console.log('its working')
+})
