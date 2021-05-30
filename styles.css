@@ -13,6 +13,7 @@ body {
 h3, h4, li{
     font-family: 'Courier New', Courier, monospace;
     color: navy;
+    text-align: center;
 }
 
 h2 {
@@ -43,10 +44,11 @@ li, h4 {
 
 
 #iphone {
-    size: 30%;
+    size: 50%;
     margin: auto;
     position: relative;
     height: auto;
+    justify-content: center;
 }
 
 #typewriter {
@@ -70,4 +72,14 @@ li, h4 {
 @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color:navy; }
+}
+
+
+.text-block {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    transform: translate(-50%, -50%)
 }
